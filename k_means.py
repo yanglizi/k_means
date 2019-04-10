@@ -23,7 +23,7 @@ def dis_center(center,data):
         dis_list.append(dis_i)
     return dis_list
 
-# 
+# Calculate a center point according to candidate_i
 def n_mean(candidate_i,data):
     data_c = []
     center_i = []
